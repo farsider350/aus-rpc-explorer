@@ -1,5 +1,5 @@
 {
-  "name": "pgn-rpc-explorer",
+  "name": "aus-rpc-explorer",
   "version": "1.2.0",
   "description": "Explorer for Bitcoin and RPC-compatible blockchains",
   "private": false,
@@ -11,14 +11,14 @@
   "keywords": [
     "bitcoin",
     "litecoin",
-    "pigeoncoin",
+    "australiacash",
     "blockchain"
   ],
-  "author": "Tri Nguyen",
+  "author": "Farsider350",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pigeoncoin/pgn-rpc-explorer.git"
+    "url": "git+https://github.com/AustraliaCash/aus-rpc-explorer.git"
   },
   "dependencies": {
     "async": "2.6.2",

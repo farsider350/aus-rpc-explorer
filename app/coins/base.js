@@ -17,7 +17,7 @@ class CoinBase {
 		};
 	}
 	responseBodySelectorFunction(responseBody) {
-		var exchangedCurrencies = ["BTC", "USD", "CNY"];
+		var exchangedCurrencies = ["BTC", "USD", "AUD"];
 
 		if (responseBody.market_data) {
 			var exchangeRates = {};
@@ -131,7 +131,7 @@ class CoinBase {
 							  <br>&emsp;&emsp;&emsp;&emsp;&emsp;       "reqSigs" : n,            (numeric) The required sigs
 							  <br>&emsp;&emsp;&emsp;&emsp;&emsp;       "type" : "pubkeyhash",  (string) The type, eg 'pubkeyhash'
 							  <br>&emsp;&emsp;&emsp;&emsp;&emsp;       "addresses" : [           (json array of string)
-							  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;         "address"        (string) pigeon address
+							  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;         "address"        (string) australiacash address
 							  <br>&emsp;&emsp;&emsp;&emsp;&emsp;        ,...
 							  <br>&emsp;&emsp;&emsp;&emsp;&emsp;      ]
 							  <br>&emsp;&emsp;&emsp;&emsp;     }
